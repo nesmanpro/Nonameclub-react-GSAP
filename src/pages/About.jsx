@@ -84,7 +84,7 @@ const About = () => {
             </section>
             <section className="outro">
                 <h1>
-                    This page doesn&apos;t show you what we are... but that&apos;s okay. <br />
+                    This page doesn&apos;t show you what we are...<br /> but that&apos;s okay. <br />
                     It shows you what we want to be!!
                 </h1>
             </section>

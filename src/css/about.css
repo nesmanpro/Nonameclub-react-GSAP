@@ -56,27 +56,44 @@ img {
 }
 
 .outro {
-    position: absolute;
     top: 160vh;
     width: 100%;
     height: 100vh;
 }
 
 .outro h1 {
-    position: absolute;
     font-size: 2.5vw;
     top: 60%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: max-content;
     font-weight: 200;
-    text-align: center;
 }
 
 
 /* Extra large devices like 27" and up */
 
 @media only screen and (min-width:2500px) {
+
+
+    #card-1 {
+        top: 25%;
+        left: 60%;
+    }
+
+    #card-2 {
+        top: 50%;
+        left: 25%;
+    }
+
+
+    #card-3 {
+        top: 45%;
+        left: 90%;
+    }
+
+    #card-4 {
+        top: 15%;
+        left: 120%;
+    }
 
     .card {
         position: absolute;
@@ -130,7 +147,29 @@ img {
 
 /* Laptops */
 
-@media only screen and (min-width:1250px) {
+@media only screen and (max-width:1500px) {
+
+
+    #card-1 {
+        top: 25%;
+        left: 25%;
+    }
+
+    #card-2 {
+        top: 50%;
+        left:50%;
+    }
+
+
+    #card-3 {
+        top: 45%;
+        left: 75%;
+    }
+
+    #card-4 {
+        top: 15%;
+        left: 100%;
+    }
 
     .card {
         position: absolute;
@@ -173,7 +212,440 @@ img {
     .outro h1 {
         position: absolute;
         font-size: 2.5vw;
-        top: 140%;
+        top: 145%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: max-content;
+        font-weight: 200;
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (max-width:1050px) {
+
+
+    #card-1 {
+        top: 25%;
+        left: 30%;
+    }
+
+    #card-2 {
+        top: 50%;
+        left:60%;
+    }
+
+
+    #card-3 {
+        top: 45%;
+        left: 90%;
+    }
+
+    #card-4 {
+        top: 15%;
+        left: 120%;
+    }
+
+    .card {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .h1 {
+        padding-top: 10rem;
+        width: 95%;
+        font-size: 70vh;
+        font-weight: 400;
+        text-align: center;
+        margin: 0;
+        text-wrap: nowrap;
+    }    
+
+    .container {
+        width: 100%;
+        height: 200vh;
+    }
+
+    .wrapper-about {
+        position: absolute;
+        top: 0;
+        width: 400vw;
+        height: 50vh;
+        will-change: transform;
+    }
+
+    .outro {
+        position: absolute;
+        top: 100vh;
+        width: 100%;
+        height: 60vh;
+
+    }
+
+    .outro h1 {
+        position: absolute;
+        font-size: 2.5vw;
+        top: 165%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: max-content;
+        font-weight: 200;
+        text-align: center;
+    }
+
+}
+
+/* Tables & phones landscape */
+
+
+@media only screen and (max-width:900px) {
+
+
+    #card-1 {
+        top: 25%;
+        left: 125%;
+    }
+
+    #card-2 {
+        top: 50%;
+        left: 62%;
+    }
+
+
+    #card-3 {
+        top: 45%;
+        left: 185%;
+    }
+
+    #card-4 {
+        top: 15%;
+        left: 250%;
+    }
+
+
+    .h1 {
+        padding-top: 10rem;
+        width: 100%;
+        font-size: 70vh;
+        font-weight: 400;
+        text-align: center;
+        margin: 0;
+        text-wrap: nowrap;
+    }    
+
+    .container {
+        width: 100%;
+        height: 200vh;
+    }
+
+    .wrapper-about {
+        position: absolute;
+        top: 0;
+        width: 400vw;
+        height: 100vh;
+        will-change: transform;
+    }
+
+    .outro {
+        position: absolute;
+        top: 100vh;
+        width: 100%;
+        height: 120vh;
+
+    }
+
+    .outro h1 {
+        position: absolute;
+        font-size: 2.5vw;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: max-content;
+        font-weight: 200;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width:840px) {
+
+    .card {
+        width: 200px;
+        height: 200px;
+    }
+    
+
+    #card-1 {
+        top: 25%;
+        left: 50%;
+    }
+
+    #card-2 {
+        top: 50%;
+        left: 25%;
+    }
+
+
+    #card-3 {
+        top: 45%;
+        left: 75%;
+    }
+
+    #card-4 {
+        top: 15%;
+        left: 100%;
+    }
+
+
+    .h1 {
+        padding-top: 5rem;
+        width: 100%;
+        font-size: 120vh;
+        font-weight: 400;
+        text-align: center;
+        margin: 0;
+        text-wrap: nowrap;
+    }    
+
+    .container {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .wrapper-about {
+        position: absolute;
+        top: 0;
+        width: 400vw;
+        height: 50vh;
+        will-change: transform;
+    }
+
+    .outro {
+        position: absolute;
+        top: 100vh;
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    .outro h1 {
+        position: absolute;
+        font-size: 3.5vw;
+        top: 205%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: max-content;
+        font-weight: 200;
+        text-align: center;
+    }
+
+}
+
+
+/*  Small devices like phone & tablets portrait */
+@media only screen and (max-width:770px) {
+
+
+    #card-1 {
+        top: 25%;
+        left: 125%;
+    }
+
+    #card-2 {
+        top: 50%;
+        left: 62%;
+    }
+
+
+    #card-3 {
+        top: 45%;
+        left: 185%;
+    }
+
+    #card-4 {
+        top: 15%;
+        left: 250%;
+    }
+
+
+    .h1 {
+        padding-top: 10rem;
+        width: 100%;
+        font-size: 70vh;
+        font-weight: 400;
+        text-align: center;
+        margin: 0;
+        text-wrap: nowrap;
+    }    
+
+    .container {
+        width: 100%;
+        height: 200vh;
+    }
+
+    .wrapper-about {
+        position: absolute;
+        top: 0;
+        width: 400vw;
+        height: 100vh;
+        will-change: transform;
+    }
+
+    .outro {
+        position: absolute;
+        top: 100vh;
+        width: 100%;
+        height: 150vh;
+
+    }
+
+    .outro h1 {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90vw;
+        font-size: 4.5vw;
+        font-weight: 200;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width:440px) {
+
+
+    #card-1 {
+        top: 25%;
+        left: 125%;
+    }
+
+    #card-2 {
+        top: 50%;
+        left: 62%;
+    }
+
+
+    #card-3 {
+        top: 45%;
+        left: 185%;
+    }
+
+    #card-4 {
+        top: 15%;
+        left: 250%;
+    }
+
+
+    .h1 {
+        padding-top: 13rem;
+        width: 100%;
+        font-size: 51vh;
+        font-weight: 400;
+        text-align: center;
+        margin: 0;
+        text-wrap: nowrap;
+    }    
+
+    .container {
+        width: 100%;
+        height: 200vh;
+    }
+
+    .wrapper-about {
+        position: absolute;
+        top: 0;
+        width: 400vw;
+        height: 100vh;
+        will-change: transform;
+    }
+
+    .outro {
+        position: absolute;
+        top: 100vh;
+        width: 100%;
+        height: 150vh;
+
+    }
+
+    .outro h1 {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 85vw;
+        font-size: 6vw;
+        font-weight: 300;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (max-width:330px) {
+
+
+    #card-1 {
+        top: 25%;
+        left: 0%;
+    }
+
+    #card-2 {
+        top: 50%;
+        left:60%;
+    }
+
+
+    #card-3 {
+        top: 45%;
+        left: 90%;
+    }
+
+    #card-4 {
+        top: 15%;
+        left: 80%;
+    }
+
+
+    .h1 {
+        padding-top: 6rem;
+        width: 100%;
+        font-size: 70vh;
+        font-weight: 400;
+        text-align: center;
+        margin: 0;
+        text-wrap: nowrap;
+    }    
+
+    .container {
+        width: 100%;
+        height: 200vh;
+    }
+
+    .wrapper-about {
+        position: absolute;
+        top: 0;
+        width: 400vw;
+        height: 100vh;
+        will-change: transform;
+    }
+
+    .outro {
+        position: absolute;
+        top: 100vh;
+        width: 100%;
+        height: 120vh;
+
+    }
+
+    .outro h1 {
+        position: absolute;
+        font-size: 2.5vw;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: max-content;
@@ -186,51 +658,4 @@ img {
 
 
 
-/*  Small devices like tablets */
 
-@media only screen and (max-width:600px) {
-
-    .h1 {
-        width: 90%;
-        font-size: 100vh;
-        font-weight: 400;
-        text-align: center;
-        margin: 0;
-        text-wrap: nowrap;
-    }
-
-
-    .container {
-        width: 100%;
-        height: 360vh;
-    }
-
-    .wrapper-about {
-        padding-top: 5em;
-        position: absolute;
-        top: 0;
-        width: 400vw;
-        height: 100vh;
-        will-change: transform;
-    }
-
-    .outro {
-        position: absolute;
-        top: 250vh;
-        width: 100%;
-        height: 100vh;
-    }
-
-
-    .outro h1 {
-        position: absolute;
-        font-size: 3vw;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 400px;
-        font-weight: 200;
-        text-align: center;
-    }
-
-}
