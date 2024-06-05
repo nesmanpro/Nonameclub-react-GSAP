@@ -97,7 +97,7 @@ function App() {
 
       <div className="preloader">
         <p className="preloader__text">
-          <span ref={preloaderTextRef}>Portfolio 2024</span>
+          <span ref={preloaderTextRef}>Collection 2024</span>
         </p>
         <div
           className="preloader__background"
