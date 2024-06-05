@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import NewMenu from './components/menu/NewMenu.jsx'
+import NewMenu from './components/NewMenu.jsx'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 

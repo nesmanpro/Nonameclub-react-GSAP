@@ -1,5 +1,5 @@
-import './menu.css';
-import logo from '../../assets/logo2.svg'
+import '../css/menu.css';
+import logo from '../assets/logo2.svg'
 import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { gsap } from 'gsap';
