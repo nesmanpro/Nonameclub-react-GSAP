@@ -5,6 +5,7 @@ img {
 }
 
 .h1 {
+    padding-top: 3rem;
     width: 95%;
     font-size: 100vh;
     font-weight: 400;
