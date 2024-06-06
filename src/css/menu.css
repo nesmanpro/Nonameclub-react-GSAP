@@ -132,4 +132,8 @@ a, p {
     .menu-preview {
         display: none;
     }
+
+    .menu-info {
+        padding-bottom: 4rem;
+    }
 }
