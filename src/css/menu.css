@@ -133,6 +133,32 @@ a, p {
         display: none;
     }
 
+    /* .menu-info {
+        padding-bottom: 4rem;
+    } */
+}
+
+@media only screen and (max-width: 900px)  and (orientation: portrait){
+    .menu-close-icon {
+    display: none;
+    }
+
+    .menu-copy {
+    padding-top: 8em;
+    }
+
+    .menu-link-item-holder a {
+    font-size: 60px;
+    }
+
+    .menu-info-col p, .menu-info-col a {
+        font-size: 12px;
+    }
+
+    .menu-preview {
+        display: none;
+    }
+
     .menu-info {
         padding-bottom: 4rem;
     }
