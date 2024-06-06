@@ -14,7 +14,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
 
-    const container = useRef(null);
+    const containerAbout = useRef(null);
 
     useGSAP(() => {
 
@@ -61,12 +61,11 @@ const About = () => {
             });
         });
 
-
-    }, { scope: container })
+    }, { scope: containerAbout })
 
 
     return (
-        <div className='container' ref={container}>
+        <div className='container-about' ref={containerAbout}>
             <section className="wrapper-about">
                 <h1 className='h1'>We are No Name Club</h1>
                 <div className="card" id="card-1">

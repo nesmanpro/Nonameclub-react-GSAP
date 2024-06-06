@@ -32,7 +32,7 @@ img {
     left: 80%;
 }
 
-.container {
+.container-about-about {
     width: 100%;
     height: 190vh;
 }
@@ -112,7 +112,7 @@ img {
         text-wrap: nowrap;
     }    
 
-    .container {
+    .container-about {
         width: 100%;
         height: 200vh;
     }
@@ -147,7 +147,7 @@ img {
 
 /* Laptops */
 
-@media only screen and (max-width:1500px) {
+@media only screen and (max-width:1600px) and (orientation: landscape)  {
 
 
     #card-1 {
@@ -188,7 +188,7 @@ img {
         text-wrap: nowrap;
     }    
 
-    .container {
+    .container-about {
         width: 100%;
         height: 200vh;
     }
@@ -222,8 +222,9 @@ img {
 
 }
 
+/* small laptops and tablets landscape */
 
-@media only screen and (max-width:1050px) {
+@media only screen and (max-width:1050px) and (orientation: landscape) {
 
 
     #card-1 {
@@ -264,7 +265,7 @@ img {
         text-wrap: nowrap;
     }    
 
-    .container {
+    .container-about {
         width: 100%;
         height: 200vh;
     }
@@ -288,7 +289,7 @@ img {
     .outro h1 {
         position: absolute;
         font-size: 2.5vw;
-        top: 165%;
+        top: 130%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: max-content;
@@ -336,7 +337,7 @@ img {
         text-wrap: nowrap;
     }    
 
-    .container {
+    .container-about {
         width: 100%;
         height: 200vh;
     }
@@ -370,56 +371,59 @@ img {
 
 }
 
-@media only screen and (max-width:840px) {
+/* Tables & phones Portrait */
+
+@media only screen and  ( max-width:840px) and (orientation: portrait){
 
     .card {
-        width: 200px;
-        height: 200px;
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
     }
-    
 
     #card-1 {
-        top: 25%;
-        left: 50%;
+        top: 35%;
+        left: 20%;
     }
 
     #card-2 {
         top: 50%;
-        left: 25%;
+        left:80%;
     }
 
 
     #card-3 {
         top: 45%;
-        left: 75%;
+        left: 160%;
     }
 
     #card-4 {
         top: 15%;
-        left: 100%;
+        left: 220%;
     }
 
 
     .h1 {
-        padding-top: 5rem;
+        padding-top: 14rem;
         width: 100%;
-        font-size: 120vh;
+        font-size: 67vh;
         font-weight: 400;
         text-align: center;
         margin: 0;
         text-wrap: nowrap;
     }    
 
-    .container {
+    .container-about-about {
         width: 100%;
-        height: 50vh;
+        height: 200vh;
     }
 
     .wrapper-about {
         position: absolute;
         top: 0;
         width: 400vw;
-        height: 50vh;
+        height: 100vh;
         will-change: transform;
     }
 
@@ -427,17 +431,17 @@ img {
         position: absolute;
         top: 100vh;
         width: 100%;
-        height: 100vh;
+        height: 120vh;
 
     }
 
     .outro h1 {
         position: absolute;
-        font-size: 3.5vw;
-        top: 205%;
+        font-size: 4.5vw;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: max-content;
+        width: 90vw;
         font-weight: 200;
         text-align: center;
     }
@@ -446,7 +450,8 @@ img {
 
 
 /*  Small devices like phone & tablets portrait */
-@media only screen and (max-width:770px) {
+
+@media only screen and  (max-width:770px) and (orientation: portrait) {
 
 
     #card-1 {
@@ -481,7 +486,7 @@ img {
         text-wrap: nowrap;
     }    
 
-    .container {
+    .container-about {
         width: 100%;
         height: 200vh;
     }
@@ -515,8 +520,14 @@ img {
 
 }
 
-@media only screen and (max-width:440px) {
+@media only screen and  (max-width:440px) and (orientation: portrait) {
 
+    .card {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+    }
 
     #card-1 {
         top: 25%;
@@ -531,26 +542,26 @@ img {
 
     #card-3 {
         top: 45%;
-        left: 185%;
+        left: 235%;
     }
 
     #card-4 {
         top: 15%;
-        left: 250%;
+        left: 290%;
     }
 
 
     .h1 {
         padding-top: 13rem;
         width: 100%;
-        font-size: 51vh;
+        font-size: 49vh;
         font-weight: 400;
         text-align: center;
         margin: 0;
         text-wrap: nowrap;
     }    
 
-    .container {
+    .container-about {
         width: 100%;
         height: 200vh;
     }
@@ -573,7 +584,7 @@ img {
 
     .outro h1 {
         position: absolute;
-        top: 85%;
+        top: 68%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 85vw;
@@ -586,42 +597,49 @@ img {
 }
 
 
-@media only screen and (max-width:330px) {
+@media only screen and  (max-width:393px)  and (orientation: portrait){
 
+    
+    .card {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+    }
 
     #card-1 {
         top: 25%;
-        left: 0%;
+        left: 125%;
     }
 
     #card-2 {
         top: 50%;
-        left:60%;
+        left: 62%;
     }
 
 
     #card-3 {
         top: 45%;
-        left: 90%;
+        left: 235%;
     }
 
     #card-4 {
         top: 15%;
-        left: 80%;
+        left: 290%;
     }
 
 
     .h1 {
-        padding-top: 6rem;
+        padding-top: 13rem;
         width: 100%;
-        font-size: 70vh;
+        font-size: 45vh;
         font-weight: 400;
         text-align: center;
         margin: 0;
         text-wrap: nowrap;
     }    
 
-    .container {
+    .container-about {
         width: 100%;
         height: 200vh;
     }
@@ -638,18 +656,97 @@ img {
         position: absolute;
         top: 100vh;
         width: 100%;
-        height: 120vh;
+        height: 150vh;
 
     }
 
     .outro h1 {
         position: absolute;
-        font-size: 2.5vw;
-        top: 60%;
+        top: 72%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: max-content;
-        font-weight: 200;
+        width: 85vw;
+        font-size: 6vw;
+        font-weight: 300;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (max-width:330px) and (orientation: portrait){
+
+    
+    .card {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+    }
+
+    #card-1 {
+        top: 25%;
+        left: 125%;
+    }
+
+    #card-2 {
+        top: 50%;
+        left: 62%;
+    }
+
+
+    #card-3 {
+        top: 45%;
+        left: 235%;
+    }
+
+    #card-4 {
+        top: 15%;
+        left: 290%;
+    }
+
+
+    .h1 {
+        padding-top: 11rem;
+        width: 100%;
+        font-size: 51vh;
+        font-weight: 400;
+        text-align: center;
+        margin: 0;
+        text-wrap: nowrap;
+    }    
+
+    .container-about {
+        width: 100%;
+        height: 200vh;
+    }
+
+    .wrapper-about {
+        position: absolute;
+        top: 0;
+        width: 400vw;
+        height: 100vh;
+        will-change: transform;
+    }
+
+    .outro {
+        position: absolute;
+        top: 100vh;
+        width: 100%;
+        height: 150vh;
+
+    }
+
+    .outro h1 {
+        position: absolute;
+        top: 132%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 85vw;
+        font-size: 6vw;
+        font-weight: 300;
+        line-height: 2rem;
         text-align: center;
     }
 

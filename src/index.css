@@ -42,12 +42,12 @@ h1 {
     line-height: 85%;
 }
 
-.home, .work, .contact, .about {
+.home, .work, .contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   place-items: center;  
-  height: calc(100vh - 10rem);
+  height: calc(100vh);
 }
 
 
