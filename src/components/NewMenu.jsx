@@ -57,7 +57,7 @@ const NewMenu = () => {
             <div className="menu-bar">
                 <div className="menu-logo">
                     <Link to='/'>
-                        <img className='logo' src={logo} alt="" />
+                        <img className='logo-before' src={logo} alt="" />
                     </Link>
                 </div>
                 <div className="menu-open" onClick={toggleMenu}><p>Menu</p></div>

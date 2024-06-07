@@ -1,8 +1,4 @@
-/* .home-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
 
 .img-home {
 	display: block;
@@ -15,9 +11,10 @@
 a {
     cursor: pointer;
 }
+
 a .home__button{
     transition: all 0.4s ease-in-out;
-    color: #fff;
+    color: #c6d5c6;
 }
 
 a .home__button:hover {
@@ -33,8 +30,10 @@ a .home__button:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: white;
+	color: #c6d5c6;
+    text-transform: uppercase;
 	text-align: center;
+    text-decoration-style: ;
 	padding-inline: 24px;
 }
 

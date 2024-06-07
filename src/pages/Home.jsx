@@ -10,7 +10,7 @@ gsap.registerPlugin(Flip);
 
 const Home = () => {
 
-    const homeRef = useRef(null);
+    // const homeRef = useRef(null);
     const homeTitleRefs = useRef([]);
     const homeImageStartRef = useRef(null);
     const homeCaptionRef = useRef(null);
@@ -64,7 +64,8 @@ const Home = () => {
                         duration: 2,
                         ease: 'power3.inOut'
                     })
-                }, '<');
+                }, '<')
+                .to(homeImageWrapper, { minHeight: '70vh', maxHeight: '90vh' });
 
             return tl;
         }
@@ -106,12 +107,15 @@ const Home = () => {
 
     }, [])
 
-
+    // const subTitle = 'Modern aesthetics for your identity.';
+    // const title1 = 'Creative designs,';
+    // const title2 = 'Lasting impact.';
+    // const button = 'Lasting impact.';
 
 
 
     return (
-        <div className='home-container' ref={homeRef}>
+        <div className='home-container' >
             <div ref={homeImageStartRef} className="home-image-start"></div>
             <div className="home__wrapper">
                 <section className="home">

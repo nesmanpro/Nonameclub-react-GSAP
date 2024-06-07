@@ -1,5 +1,16 @@
-.logo{
+.logo-before {
+    mix-blend-mode: difference;
+}
+
+.logo,
+.logo-before{
     height: 3rem;
+    transition: .4s ease-in-out;
+}
+
+.logo:hover,
+.logo-before:hover{
+    transform: scale(1.12);
     transition: .4s ease-in-out;
 }
 
@@ -28,6 +39,11 @@ a, p {
     justify-content: space-between; 
     align-items: center;
     z-index: 1;
+}
+
+.menu-bar{
+    filter: invert(96%) sepia(8%) saturate(360%) hue-rotate(63deg) brightness(100%) contrast(87%);
+    mix-blend-mode: difference;
 }
 
 .menu-bar a, 
