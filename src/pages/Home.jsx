@@ -107,11 +107,6 @@ const Home = () => {
 
     }, [])
 
-    // const subTitle = 'Modern aesthetics for your identity.';
-    // const title1 = 'Creative designs,';
-    // const title2 = 'Lasting impact.';
-    // const button = 'Lasting impact.';
-
 
 
     return (
