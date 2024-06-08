@@ -5,6 +5,7 @@
 .logo,
 .logo-before{
     max-height: 3rem;
+    height: 3rem;
     transition: .4s ease-in-out;
 }
 
