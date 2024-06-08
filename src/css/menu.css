@@ -1,6 +1,6 @@
-/* .logo-before {
+.logo-before {
     mix-blend-mode: difference;
-} */
+}
 
 .logo,
 .logo-before{
@@ -26,6 +26,7 @@ a, p {
 .menu-logo {
     display: flex;
     justify-content: space-between;
+    height: 50px;
 }
 
 
