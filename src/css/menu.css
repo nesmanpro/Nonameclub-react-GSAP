@@ -1,14 +1,14 @@
-.logo-before {
-    mix-blend-mode: difference;
-}
 
 .logo,
 .logo-before{
-    max-height: 3rem;
-    height: 3rem;
+    max-width: 70px;
+    width: 70px;
     transition: .4s ease-in-out;
 }
 
+.logo-before {
+    mix-blend-mode: difference;
+}
 .logo:hover,
 .logo-before:hover{
     transform: scale(1.12);
